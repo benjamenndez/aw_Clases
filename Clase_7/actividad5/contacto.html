@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+         <a href="./index.html" aria-label="ir al inicio">
+          <!-- <img src="./recursos/imagenes/pesa.png" alt="logo pesa"> -->
+        </a>
+        <nav>
+            <a href="./index.html">
+                Quien Soy
+            </a>
+            </a>
+            <a href="./contacto.html">
+                Contacto
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>¿Querés dar el primer paso hacia una alimentación más equilibrada?</h1>
+        <p>Completá el siguiente formulario con tus datos y contame brevemente qué te gustaría trabajar.
+            Te voy a responder a la brevedad para coordinar tu primera consulta.</p>
+
+            <form action="./contacto.html" method="post">
+            <!--  
+            nombre
+            correo
+            telefono
+            modalidad preferida
+            motivo de consulta
+            mensaje
+            Horario de preferencia para ser contactado
+            Botón de envío
+            -->
+            <label for="id-Nombre">Nombre</label>
+            <input type="text" name="nombre" id="id-Nombre">
+
+            <label for="id-Correo">Correo Electronico</label>
+            <input type="text" name="nombre" id="id-Correo">
+
+            <label for="id-Telefono">Telefono</label>
+            <input type="tel" name="telefono" id="id-Telefono">
+
+            <label for="id-Modalidad">Modalidad Preferida</label>
+            <select name="modalidad-preferida" id="id-Modalidad">
+                <option value="P">Presencial</option>
+                <option value="V">Virtual</option>
+                <option value="N">No estoy seguro</option>
+            </select>
+
+            <label for="id-Motivo">Motivo de Consulta</label>
+            <select name="motivo-consulta" id="id-Motivo">
+                <option value="BajarP">Bajar de peso</option>
+                <option value="SubirP">Subir de peso</option>
+                <option value="ND">Nutricion deportiva</option>
+                <option value="D/H">Diabetes/hipertencion</option>
+                 <option value="ACH">Alim.consciente/habitos</option>
+            </select>
+            
+            <label for="id-Mensaje">Espacio para contar más detalles sobre su situación</label>
+            <textarea name="mensaje" id="id-Mensaje"></textarea>
+
+            <label for="id-Horario">Franja horaria en la que prefiere que lo contacten</label>
+            <select name="horario" id="id-Horario">
+                <option value="Mañana">Mañana</option>
+                <option value="Tarde">Tarde</option>
+                <option value="Noche">Noche</option>
+            </select>
+
+            <!--  -->
+            <!-- <input type="button" value="Enviar"> -->
+             <button type="reset">
+                Borrar
+            </button>
+            <button type="submit">
+                Enviar
+            </button>
+        </form>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>
