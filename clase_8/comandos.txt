@@ -25,3 +25,5 @@ pn add five-server
 pn install
 
 -configurar scripts "dev:five-server"
+https://pnpm.io/es/
+https://www.npmjs.com/

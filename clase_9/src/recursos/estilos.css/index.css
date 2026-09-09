@@ -1,0 +1,69 @@
+/*
+sintaxis
+*/
+/* regla de estilo (rule) */
+/* selector {
+    propiedad1: valor;
+    propiedad2: valor;
+} */
+
+
+/* IMPORTAR FUENTE */
+@font-face {
+  font-family: Poppins ;
+  src: url(./fuentes/Poppins-Bold.ttf);
+}
+
+
+/* SELECTOR UNIVERSAL */
+*{
+    /* outline: 1px #ff7272; */
+}
+
+
+/*  selectores de tipo */
+
+html{
+    font-family: Poppins;
+}
+/*reglas*/
+body{
+    background-color: rgb(240, 240, 240);
+}
+header{
+    background-color: #ff7272;
+}
+
+ a{
+     color: #ff7272;
+   text-decoration: none;
+ } 
+
+/* Selector de Clase*/
+.vinculos{
+   color: #222222;
+}
+
+
+.encabezado-principal .vinculos a{
+    color: #222222;
+}
+
+/* CONTENIDO PRINCIPAL 
+.contenido-principal a{
+    color: #ff7272;
+}*/
+.contenido-principal{
+    
+}
+
+/*  PIE PRINCIPAL */
+.pie-principal{
+
+}
+    
+
+
+/* ATRIBUTO */
+/* [href]{} */
+
