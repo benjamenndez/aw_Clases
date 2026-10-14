@@ -1,0 +1,111 @@
+/*
+Sintaxis
+*/
+
+/*Regla de estilo 
+selector{
+    propiedad1: valor;
+    propiedad2: valor;
+}
+   */ 
+
+*{
+    box-sizing: border-box;
+}
+/*IMPORTAR FUENTE*/
+@font-face {
+  font-family: "Poppins";
+  src: url(./fuentes/Poppins-Bold.ttf), 
+}
+
+html,
+body,
+header
+
+/*SELECTOR UNIVERSAL*/
+/**{
+    outline: 1px #233496;   
+}*/
+
+/*SELECTOR DE TIPO */ 
+html{
+    font-family: Poppins;
+}
+body{
+    background-color: #cbebf5; /* #000000 #ffffff */
+}
+
+header{
+    background-color: #ffffed;
+}
+
+a{
+    color: #333333;
+    text-decoration: none;
+}
+
+/*Selectores de clase */
+/*.vinculos{
+    color: #233496;
+}
+*/
+
+/*
+nav a{
+    color: #233496;
+}
+*/
+
+/*ENCABEZADOS PRINCIPALES*/
+.encabezado-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fffaeb;
+    padding: 5px;
+}
+
+/*Imagen del logo*/
+.encabezado-principal a img{
+    width: 150px;
+}
+
+.encabezado-principal .vinculos a{
+    color: #233496;
+}
+.encabezado-principal{
+
+/*CONTENIDOS PRINCIPALES*/
+}
+.contenido-principal img{
+    width: 650px;    
+}
+
+.contenido-principal .contenedor-form{
+    padding: 20px 20%;
+}
+
+.contenido-principal .contenedor-form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido-principal .contenedor-form button {
+    padding: 5px 40px;
+}
+
+/*PIE PRINCIPAL*/
+.pie-principal{
+    background-color: #ffffed;
+}
+
+/*ATRIBUTOS*/
+/* [href]{
+
+} */
+
+/*Selector de id */
+/*#contactos{
+
+}*/
