@@ -12,6 +12,7 @@
 
 //objetos
 const persona = {
+    // clave/llave = propiedad : valor
    edad: 20,
    estudia: true,
    nombre: "Andres",
@@ -31,3 +32,4 @@ const persona = {
 }
 persona.nacionalidad = 'Argentina'
 console.log(persona.redes[1])
+// sintaxis de puntos
