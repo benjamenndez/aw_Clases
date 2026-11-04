@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "nombre": "Collar ajustable para perros",
+    "imagen": "./recursos/imagenes/productos/collar.jpg",
+    "descripcion": "Cómodo collar ajustable de nailon resistente para paseos seguros diarios.",
+    "talles": ["M", "L"],
+    "precio": 12.50
+  },
+  {
+    "id": 2,
+    "nombre": "Correa extensible automática",
+    "imagen": "./recursos/imagenes/productos/correa.jpg",
+    "descripcion": "Correa retráctil resistente con freno seguro y diseño ergonómico moderno.",
+    "talles": ["S", "M"],
+    "precio": 24.99
+  },
+  {
+    "id": 3,
+    "nombre": "Cama acolchada para mascotas",
+    "imagen": "./recursos/imagenes/productos/cama.jpg",
+    "descripcion": "Suave cama redonda y cálida ideal para descanso de perros.",
+    "talles": ["S", "M", "L"],
+    "precio": 45.00
+  },
+  {
+    "id": 4,
+    "nombre": "Arnés antitirones acolchado",
+    "imagen": "./recursos/imagenes/productos/arnes.jpg",
+    "descripcion": "Arnés cómodo que evita tirones durante los paseos con mascotas.",
+    "talles": ["M", "L"],
+    "precio": 18.75
+  },
+  {
+    "id": 5,
+    "nombre": "Abrigo impermeable para lluvia",
+    "imagen": "./recursos/imagenes/productos/abrigo-lluvia.jpg",
+    "descripcion": "Chaqueta impermeable con capucha para proteger perros en días lluviosos.",
+    "talles": ["S", "L"],
+    "precio": 15.30
+  },
+  {
+    "id": 6,
+    "nombre": "Suéter tejido de lana",
+    "imagen": "./recursos/imagenes/productos/sweater.jpg",
+    "descripcion": "Cálido suéter tejido a mano perfecto para días de invierno.",
+    "talles": ["M", "L"],
+    "precio": 10.99
+  },
+  {
+    "id": 7,
+    "nombre": "Chaleco salvavidas canino",
+    "imagen": "./recursos/imagenes/productos/salvavidas.jpg",
+    "descripcion": "Chaleco flotador ajustable con asa resistente para seguridad en piscina.",
+    "talles": ["S", "M", "L"],
+    "precio": 11.20
+  },
+  {
+    "id": 8,
+    "nombre": "Botitas protectoras antideslizantes",
+    "imagen": "./recursos/imagenes/productos/botitas.jpg",
+    "descripcion": "Zapatos protectores de goma antideslizante para cuidar las patas caninas.",
+    "talles": ["S", "L"],
+    "precio": 22.00
+  },
+  {
+    "id": 9,
+    "nombre": "Disfraz melena de león",
+    "imagen": "./recursos/imagenes/productos/disfraz.jpg",
+    "descripcion": "Divertida peluca con orejas para transformar a tu perro fácilmente.",
+    "talles": ["S", "L"],
+    "precio": 29.90
+  },
+  {
+    "id": 10,
+    "nombre": "Pañuelo Bandana estilizado",
+    "imagen": "./recursos/imagenes/productos/bandana.jpg",
+    "descripcion": "Bandana de algodón suave con estampados divertidos para mascotas felices.",
+    "talles": ["S", "M"],
+    "precio": 8.50
+  }
+]
